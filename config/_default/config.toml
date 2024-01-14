@@ -10,5 +10,7 @@ paginate = 10
 summaryLength = 0
 theme = "congo"
 
+googleAnalytics = "G-RS2TMEY2KX"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]

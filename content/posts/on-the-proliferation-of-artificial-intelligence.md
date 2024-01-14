@@ -3,7 +3,6 @@ title = 'On the Proliferation of Artificial Intelligence'
 date = 2018-07-28T18:02:45-08:00
 draft = false
 +++
-
 > **Q: Do the benefits of artificial intelligence outweigh the risks?**
 
 *The late physicist Stephen Hawking warned that artificial intelligence (AI) was “either the best or the worst thing ever to happen to humanity”. The technology promises to solve complex problems and unlock scientific mysteries. But it could also imperil jobs, make possible new kinds of weapons—and even develop beyond human control. Are such fears justified? How feasible is it to control the scale and speed of AI’s spread? And do the benefits outweigh the risks?*

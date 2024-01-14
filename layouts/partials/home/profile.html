@@ -32,5 +32,11 @@
   <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>
 <section>
+    {{ partial "about-me.html" . }}
+</section>
+<section>
+    {{ partial "angel-investments.html" . }}
+</section>
+<section>
   {{ partial "recent-articles.html" . }}
 </section>

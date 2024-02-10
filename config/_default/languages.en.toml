@@ -10,7 +10,7 @@ title = "Andrew Benson"
   dateFormat = "January 2, 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "Andrew Benson is an entrepreneur based in San Francisco, California"
 
 [author]
   name = "Andrew Benson"

@@ -3,12 +3,12 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "{{ (site.GetPage "/").Permalink | safeURL }}",
+    "@id": "https://benson.vc/",
     "name": "Andrew Benson",
     "description": "Andrew Benson is an entrepreneur based in San Francisco, California. Andrew has co-founded financial technology companies including River.com and Gondola.",
-    "url": "{{ (site.GetPage "/").Permalink | safeURL }}",
+    "url": "https://benson.vc/",
     "disambiguatingDescription": "Founder of River.com and Gondola",
-    "image": "{{ (site.GetPage "/").Permalink | safeURL }}img/andrew-benson.jpg",
+    "image": "https://benson.vc/img/andrew-benson.jpg",
     "sameAs": [
       "https://twitter.com/AndrewBenson",
       "https://www.linkedin.com/in/abenson",
@@ -32,7 +32,17 @@
     "url" : "{{ .Permalink }}",
     "author" : {
       "@type": "Person",
-      "name": "{{ .Site.Author.name | safeJS }}"
+      "name": "Andrew Benson",
+      "description": "Andrew Benson is an entrepreneur based in San Francisco, California. Andrew has co-founded financial technology companies including River.com and Gondola.",
+      "url": "https://benson.vc/",
+      "disambiguatingDescription": "Founder of River.com and Gondola",
+      "image": "https://benson.vc/img/andrew-benson.jpg",
+      "sameAs": [
+        "https://twitter.com/AndrewBenson",
+        "https://www.linkedin.com/in/abenson",
+        "https://www.crunchbase.com/person/andrew-benson-37bf", 
+        "https//github.com/andrewbenson"
+      ]
     },
     {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
     {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}

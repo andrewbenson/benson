@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "9247659ed799c4bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b8fc36cc8037d55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b747e1c28639ee19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "things-to-do-in-san-francisco/index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d40d0fb3853c7f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b47927a9b791c7de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bef05255a58f27f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e76c37ab330ce2ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "51beee657a9925eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "222d0d978ed217b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "efa6a0822163cc78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89b1b4414ef31a60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "things-to-do-in-san-francisco/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54ea27c5c7443074",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "things-to-do-in-san-francisco/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46f49f0bff69bac0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec7d4e1d59685007",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "things-to-do-in-san-francisco/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b747e1c28639ee19",
+  "lastOpenFiles": [
+    "posts/on-the-proliferation-of-artifical-intelligence/index.md",
+    "things-to-do-in-san-francisco/index.md",
+    "things-to-do-in-san-francisco"
+  ]
+}

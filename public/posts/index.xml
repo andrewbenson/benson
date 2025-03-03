@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Andrew Benson</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Andrew Benson</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Jul 2018 18:02:45 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On the Proliferation of Artificial Intelligence</title>
+      <link>http://localhost:1313/posts/on-the-proliferation-of-artifical-intelligence/</link>
+      <pubDate>Sat, 28 Jul 2018 18:02:45 -0800</pubDate>
+      <guid>http://localhost:1313/posts/on-the-proliferation-of-artifical-intelligence/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

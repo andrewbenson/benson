@@ -6,8 +6,10 @@ baseURL = "https://benson.vc/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 0
+
+[pagination]
+  pagerSize = 10
 theme = "congo"
 
 googleAnalytics = "G-RS2TMEY2KX"

@@ -2,7 +2,9 @@
   <nav class="flex items-start justify-between sm:items-center">
     {{/* Site logo/title */}}
     <div class="flex flex-row items-center">
-      {{ partial "logo.html" . }}
+      {{ if .IsPage -}}
+        {{ partial "logo.html" . }}
+      {{ end }}
     </div>
     {{/* Main menu */}}
     {{ if or .Site.Menus.main (.Site.Params.enableSearch | default false) }}
@@ -29,7 +31,7 @@
                     {{- end -}}{{- if .Params.showName | default true -}}
                       <span
                         class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                        >{{ .Name | markdownify | emojify }}Test</span
+                        >{{ .Name | markdownify | emojify }}</span
                       >
                     {{ end }}
                   </button>

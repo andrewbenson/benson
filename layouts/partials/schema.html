@@ -1,0 +1,63 @@
+{{ if .IsHome -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://benson.vc/",
+    "name": "Andrew Benson",
+    "description": "Andrew Benson is an entrepreneur and investor based in San Francisco, California. Andrew has co-founded financial technology companies including River.com and Hill.com.",
+    "url": "https://benson.vc/",
+    "disambiguatingDescription": "Founder of River.com and Hill.com",
+    "image": "https://benson.vc/img/andrew-benson.jpg",
+    "sameAs": [
+      "https://x.com/AndrewBenson",
+      "https://www.linkedin.com/in/abenson",
+      "https://www.crunchbase.com/person/andrew-benson-37bf", 
+      "https://www.instagram.com/andrewbenson",
+      "https//github.com/andrewbenson"
+    ]
+  }
+  </script>
+{{ else if .IsPage }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Summary }}"abstract": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    "url" : "{{ .Permalink }}",
+    "author" : {
+      "@type": "Person",
+      "name": "Andrew Benson",
+      "description": "Andrew Benson is an entrepreneur and investor based in San Francisco, California. Andrew has co-founded financial technology companies including River.com and Hill.com.",
+      "url": "https://benson.vc/",
+      "disambiguatingDescription": "Founder of River.com and Hill.com",
+      "image": "https://benson.vc/img/andrew-benson.jpg",
+      "sameAs": [
+        "https://x.com/AndrewBenson",
+        "https://www.linkedin.com/in/abenson",
+        "https://www.crunchbase.com/person/andrew-benson-37bf", 
+        "https://www.instagram.com/andrewbenson",
+        "https//github.com/andrewbenson"
+      ]
+    },
+    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
+    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+    {{ if .Keywords }}
+    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
+    {{ else }}
+    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+    {{ end }}
+    "mainEntityOfPage": "true",
+    "wordCount": "{{ .WordCount }}"
+  }
+  </script>
+{{ end }}

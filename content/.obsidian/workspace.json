@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0b8fc36cc8037d55",
+        "id": "137849b1b6f4c18d",
         "type": "tabs",
         "children": [
           {
-            "id": "b747e1c28639ee19",
+            "id": "c048bac44ae8f5ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "things-to-do-in-san-francisco/index.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "things-to-do-in-san-francisco/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "things-to-do-in-san-francisco/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "things-to-do-in-san-francisco/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,10 +137,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b747e1c28639ee19",
+  "active": "c048bac44ae8f5ff",
   "lastOpenFiles": [
-    "posts/on-the-proliferation-of-artifical-intelligence/index.md",
     "things-to-do-in-san-francisco/index.md",
+    "posts/on-the-proliferation-of-artifical-intelligence/index.md",
     "things-to-do-in-san-francisco"
   ]
 }

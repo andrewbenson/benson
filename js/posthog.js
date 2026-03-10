@@ -3,5 +3,5 @@ posthog.init('phc_G4DjQ585jCPsORhWjZVq2ZHtZ8biruSciWsCBoGHFZ3', {
   api_host: 'https://data.benson.vc',
   ui_host: 'https://us.posthog.com',
   defaults: '2026-01-30',
-  person_profiles: 'identified_only'
+  person_profiles: 'always'
 });

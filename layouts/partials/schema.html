@@ -29,7 +29,7 @@
     "headline": "{{ .Title | safeJS }}",
     {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
     {{ with .Summary }}"abstract": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
     "url" : "{{ .Permalink }}",
     "author" : {
       "@type": "Person",
